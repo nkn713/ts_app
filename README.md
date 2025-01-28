@@ -19,5 +19,5 @@ like-button@0.0.0 /Users/test/like-button
 └── react@18.3.1
 ```
 
-## Reactのローカル開発サーバーを起動
+### Reactのローカル開発サーバーを起動
 `npm run dev`
