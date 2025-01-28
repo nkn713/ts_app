@@ -1,2 +1,23 @@
 ## 参考記事
 https://typescriptbook.jp/tutorials/make-a-simple-function-via-cli
+
+## プロジェクトを作る
+### Reactプロジェクトのひながたを生成
+`npm create vite@latest like-button -- --template react-swc-ts`
+
+### Reactなど依存パッケージをインストール
+`cd like-button`
+`npm install`
+
+インストールされたReactのバージョンを確認コマンド
+`npm list react`
+
+```
+like-button@0.0.0 /Users/test/like-button
+├─┬ react-dom@18.3.1
+│ └── react@18.3.1 deduped
+└── react@18.3.1
+```
+
+## Reactのローカル開発サーバーを起動
+`npm run dev`
