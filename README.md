@@ -1,6 +1,3 @@
-## 参考記事
-https://typescriptbook.jp/tutorials/make-a-simple-function-via-cli
-
 ## プロジェクトを作る
 ### Reactプロジェクトのひながたを生成
 `npm create vite@latest like-button -- --template react-swc-ts`
@@ -37,4 +34,7 @@ yarn create next-app --example with-typescript random-cat
 
 ### 不要なファイルを消す
 ```rm -rf pages utils interfaces components```
+
+### プロダクションビルドと実行
+`yarn build && yarn start`
 
